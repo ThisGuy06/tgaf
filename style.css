@@ -4,7 +4,7 @@
             font-size: 1rem;
             color: white;
         }
-
+        
         .menu-icon {
             visibility: hidden;
         }
@@ -19,7 +19,6 @@
             /* display: flex; */
             height: auto;
             background: #ffffff7c;
-            
             width: 100%;
             z-index: 10;
             position: fixed;
