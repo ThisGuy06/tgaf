@@ -1,0 +1,72 @@
+/* =Basic HTML, Non-essential
+----------------------------------------------------------------------*/
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    background-attachment: fixed;
+    width: 90%;
+    height: auto;
+    border: 0.2rem solid rgba(0, 0, 0, 0.118);
+    border-radius: 80px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font: 17px Georgia, serif;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    text-align: center;
+}
+
+p {
+    clear: both;
+    font: 10px Verdana, sans-serif;
+    text-align: center;
+}
+
+p a {
+    background: inherit;
+    color: #777;
+}
+
+p a:hover {
+    background: inherit;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Hoverbox Code */
+
+li a:hover {
+    transition: 0.5s ease-in-out;
+}
+
+.hoverbox a {
+    cursor: default;
+    transition: 0.5s ease-in-out;
+}
+
+.hoverbox img {
+    background: rgba(0, 0, 0, 0.201);
+    border-style: solid;
+    padding: 20px;
+    border-width: 0;
+    /* width: 100%; */
+    /* height: 75px; */
+    transition: 0.5s ease-in-out;
+}
+
+.hoverbox li {
+    width: auto;
+    color: inherit;
+    /* display: inline; */
+    /* margin: 3px; */
+    padding: 5px;
+    /* position: relative; */
+    transition: 0.5s ease-in-out;
+}
