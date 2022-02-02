@@ -4,7 +4,9 @@
             font-size: 1rem;
             color: white;
         }
-        
+        html{
+       scroll-behavior;smooth;
+       }
         .menu-icon {
             visibility: hidden;
         }
